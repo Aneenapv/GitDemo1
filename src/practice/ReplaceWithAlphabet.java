@@ -9,12 +9,13 @@ package practice;
 	    public static void main(String[] args)
 	    {
 	        Scanner scanner = new Scanner(System.in);
-	        System.out.println("Enter the size of the array: ");
-	        int size = scanner.nextInt();
+	        //System.out.println("Enter the size of the array: ");
+	        //int size = scanner.nextInt();
 	        
-	        int[] array = new int[size];
+	        int[] array = new int[5];
 	        System.out.println("Enter the elements of the array (0-25): ");
-	        for (int i = 0; i < size; i++) {
+	        for (int i = 0; i <5; i++) 
+	        {
 	            array[i] = scanner.nextInt();
 	        }
 	        
